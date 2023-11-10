@@ -1,17 +1,20 @@
 name: "Build and Push Image"
 
 on:
-  create:
+  push:
+    tags:
+      - 'v*'
 
 jobs:
   build:
-    if: ${{ startsWith(github.ref, 'refs/tags/v') }}
     runs-on: ubuntu-latest
     permissions:
       contents: read
       packages: write
     steps:
       - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
       - name: Build the Docker image
         run: docker build . --file Dockerfile --tag semantic-release-with-release-docker:${{ github.ref_name }}
       - name: Log in to the Container registry
