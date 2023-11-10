@@ -19,6 +19,7 @@
 
         <h4>This is another link with new feature <a href="https://nuxtjs.org" target="_blank" class="text-green-500 hover:underline">NEW LINK</a></h4>
         
+        <h3>Adding another view</h3>
       </div>
       <div class="flex justify-center pt-4 space-x-2">
         <a href="https://github.com/nuxt/nuxt.js" target="_blank"><svg
