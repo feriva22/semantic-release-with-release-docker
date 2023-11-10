@@ -1,4 +1,4 @@
-# office
+# semantic-release app
 
 ## Build Setup
 
