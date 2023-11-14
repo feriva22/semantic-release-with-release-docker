@@ -68,4 +68,10 @@ This directory contains your Vuex store files. Creating a file in this directory
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
 
+### `Test again Feature`
+This a new feature about readme
+
+### `Another Test Feature`
+This is a anoter feature about readme
+
 Created by @feriva22
