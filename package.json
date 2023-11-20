@@ -13,7 +13,7 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
     "@semantic-release/git": "^10.0.1",
-    "core-js": "^3.15.1",
+    "core-js": "^3.33.3",
     "element-ui": "^2.15.2",
     "nuxt": "^2.15.7",
     "semantic-release": "^22.0.7"
